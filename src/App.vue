@@ -1,18 +1,18 @@
 <script setup>
-import CatalogWraper from "./components/CatalogWraper.vue";
+import ListWraper from "./components/ListWraper.vue";
 </script>
 
 <template>
   <header>
-    <div class="wrapper">
-      <CatalogWraper msg="Нарешті" />
+    <div>
+      <ListWraper />
     </div>
   </header>
 
   <main>Another component</main>
 </template>
 
-<style scoped>
+<style>
 header {
   line-height: 1.5;
 }
