@@ -1,20 +1,12 @@
-<template>
-  <div class="list-wraper">
-    {{ title }}
-    <ListMain />
-    <ListFavourite />
-  </div>
-</template>
-
 <script>
-import ListMainVue from "./ListMain.vue";
-import ListFavouriteVue from "./ListFavourite.vue";
+import ListMain from "./ListMain.vue";
+import ListFavourite from "./ListFavourite.vue";
 
 export default {
   name: `ListWraper`,
   components: {
-    ListMainVue,
-    ListFavouriteVue,
+    ListMain,
+    ListFavourite,
   },
   data() {
     return {
@@ -26,6 +18,14 @@ export default {
   },
 };
 </script>
+
+<template>
+  <div class="list-wraper">
+    {{ title }}
+    <ListMain />
+    <ListFavourite />
+  </div>
+</template>
 
 <style>
 .list-wraper {
