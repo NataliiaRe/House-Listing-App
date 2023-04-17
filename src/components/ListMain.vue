@@ -18,6 +18,9 @@ export default {
   <div class="list-main">
     <h1>List of houses</h1>
     <ListItem />
+    <ListItem />
+    <ListItem />
+    <ListItem />
   </div>
 </template>
 
