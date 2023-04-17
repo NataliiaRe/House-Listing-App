@@ -8,20 +8,12 @@ export default {
     ListMain,
     ListFavourite,
   },
-  data() {
-    return {
-      title: `Main wraper`,
-    };
-  },
-  mounted() {
-    console.log(`random sign`);
-  },
+  data() {},
 };
 </script>
 
 <template>
   <div class="list-wraper">
-    {{ title }}
     <ListMain />
     <ListFavourite />
   </div>

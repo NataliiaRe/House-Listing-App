@@ -6,9 +6,6 @@ export default {
       title: `item`,
     };
   },
-  mounted() {
-    console.log(`random sign`);
-  },
 };
 </script>
 

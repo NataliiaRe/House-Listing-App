@@ -8,9 +8,6 @@ export default {
       title: `main list`,
     };
   },
-  mounted() {
-    console.log(`random sign`);
-  },
 };
 </script>
 

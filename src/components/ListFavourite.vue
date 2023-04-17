@@ -12,9 +12,6 @@ export default {
       title: `list of favourite`,
     };
   },
-  mounted() {
-    console.log(`random sign`);
-  },
 };
 </script>
 

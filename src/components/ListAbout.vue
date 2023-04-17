@@ -12,9 +12,6 @@ export default {
       title: `about list`,
     };
   },
-  mounted() {
-    console.log(`random sign`);
-  },
 };
 </script>
 
