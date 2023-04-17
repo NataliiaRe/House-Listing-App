@@ -1,13 +1,9 @@
-<template>
-  <div class="list-item"></div>
-</template>
-
 <script>
 export default {
   name: `ListItem`,
   data() {
     return {
-      title: `new item`,
+      title: `item`,
     };
   },
   mounted() {
@@ -15,5 +11,9 @@ export default {
   },
 };
 </script>
+
+<template>
+  <div class="list-item">Item 1</div>
+</template>
 
 <style></style>

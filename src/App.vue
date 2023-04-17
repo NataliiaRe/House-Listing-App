@@ -3,13 +3,9 @@ import ListWraper from "./components/ListWraper.vue";
 </script>
 
 <template>
-  <header>
-    <div>
-      <ListWraper />
-    </div>
-  </header>
-
-  <main>Another component</main>
+  <div>
+    <ListWraper />
+  </div>
 </template>
 
 <style>
