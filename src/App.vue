@@ -1,11 +1,11 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
+import CatalogWraper from "./components/CatalogWraper.vue";
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-      <HelloWorld msg="Нарешті" />
+      <CatalogWraper msg="Нарешті" />
     </div>
   </header>
 
